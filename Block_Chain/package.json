@@ -1,0 +1,15 @@
+{
+  "name": "tokenized-sentiment-oracle",
+  "version": "1.0.0",
+  "description": "A decentralized oracle that converts real-time social sentiment into blockchain signals",
+  "scripts": {
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
